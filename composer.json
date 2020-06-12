@@ -13,5 +13,7 @@
     "autoload": {
         "psr-4": {"neerajratta\\HelloWorld\\": "src/"}
     },
-    "require": {}
+    "require":{
+    "neerajratta/hello-composer":"1.0.*"
+    }
 }
