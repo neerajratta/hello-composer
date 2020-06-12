@@ -1,0 +1,17 @@
+{
+    "name": "neerajratta/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neeraj Ratta",
+            "email": "neerajratta65@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"neerajratta\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
